@@ -1,0 +1,37 @@
+{
+  "name": "pomade",
+  "version": "0.0.1",
+  "description": "static sites with style",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "static",
+    "handlebars"
+  ],
+  "author": "Brad Oyler",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "gulp": "^3.9.1",
+    "gulp-hb": "^7.0.1",
+    "gulp-sass": "^3.2.1",
+    "vue": "^2.5.16",
+    "webpack": "^4.2.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
