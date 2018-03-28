@@ -7,9 +7,9 @@ const webpackConfig = require('./webpack.config')
 
 function compile () {
   return gulp
-    .src('./src/*.html')
+    .src('./src/views/*.html')
     .pipe(hb()
-      .partials('./src/partials/**/*.hbs')
+      .partials('./src/views/partials/**/*.hbs')
     // .helpers('./src/helpers/*.js') // TODO: add helpers
       .data({
         title: 'Default Title'

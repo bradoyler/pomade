@@ -3,11 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>{{meta.title}}</title>
+    <link rel="stylesheet" href="https://unpkg.com/tachyons/css/tachyons.min.css">
     <link rel="stylesheet" href="/styles/main.css">
   </head>
   <body>
     {{> nav}}
-    <h1>{{page.title}}</h1>
+    <section class="pa6-ns">
+      <h1>{{page.title}}</h1>
+    </section>
+
     <script src="/scripts/main.bundle.js" charset="utf-8"></script>
   </body>
 </html>
